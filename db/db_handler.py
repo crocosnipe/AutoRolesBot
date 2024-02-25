@@ -12,14 +12,15 @@ class WelcomeDB(ezcord.DBHandler):
         await self.exec(
             """
             CREATE TABLE IF NOT EXISTS welcome (
-                guild_id BIGINT PRIMARY KEY,
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                guild_id BIGINT,
                 role_id BIGINT
             )"""
         )
 
     # Create a method to get all welcome roles
-    async def get_welcome_role(self, guild_id: int):
-        return await self.fetchall(
+    async def get_welcome_roles(self, guild_id: int):
+        return await self.all(
             "SELECT role_id FROM welcome WHERE guild_id = ?", (guild_id,)
         )
     
