@@ -17,7 +17,7 @@ Python using py-cord in connection with ezcord
 ## Demo
 
 Preview:<br />
-![demo](https://i.ibb.co/TtDMNSR/Screenshot-2024-02-27-200811.png) <br />
+![demo](https://i.ibb.co/X7GtFzs/Screenshot-2024-02-28-190507.png) <br />
 
 
 ## Clone
