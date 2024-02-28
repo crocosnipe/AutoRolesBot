@@ -25,8 +25,8 @@ Preview:<br />
 2. Run: 
 ```bash
 pip install -r requirements.txt
-3. Insert your Bot Token in bot.py
 ```
+3. Insert your Bot Token in bot.py
 4. Run the bot.py script with:
 ```bash
 python bot.py
