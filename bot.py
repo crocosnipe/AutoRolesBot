@@ -18,4 +18,4 @@ if __name__ == "__main__":
     # Load the cogs from the cogs folder
     bot.load_cogs("cogs")
     # Run the bot
-    bot.run("MTIxMTM3NzM1MDQzNjk4MjgxNQ.Gg_8EE.gyRlxi8iy1jtwA8jMJ1qUqJ2eNyOXqaKhITetA")
+    bot.run("YOUR_BOT_TOKEN") # Replace YOUR_BOT_TOKEN with your bot token from https://discord.com/developers/applications
