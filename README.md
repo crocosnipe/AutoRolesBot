@@ -7,7 +7,7 @@ This project contains an advanced Discord Bot for Welcome Roles. It was a challe
 ## Features
 
 - The slash command /welcome to open up the Welcome Roles Menu
-- Advanced Dashboard Like Welcome Roles menu where you can select up to 3 auto roles
+- Advanced Dashboard like Welcome Roles menu where you can select up to 3 auto roles
 - A script to give the Welcome Roles to a new user
 
 ## "Tech Stack"
